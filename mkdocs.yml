@@ -1,0 +1,112 @@
+site_name: Travailler avec l'équipe d'agents Claude Code
+site_description: >-
+  Guide d'installation et d'utilisation d'une organisation de travail Claude Code
+  à deux rôles : un Tech Leader qui cadre et décide, un Developer qui exécute.
+# site_url n'est renseigné que pour la publication sur GitHub Pages (variable DOCS_SITE_URL,
+# fixée par le workflow). Défini en local, il ferait charger Mermaid depuis le site en ligne :
+# les diagrammes ne s'afficheraient plus hors connexion ni dans le PDF.
+site_url: !ENV DOCS_SITE_URL
+repo_url: https://github.com/Pierre3851/claude-team
+docs_dir: docs
+site_dir: site
+
+# Liens internes et ancres vérifiés à la construction (échec avec --strict).
+validation:
+  links:
+    anchors: warn
+
+# Le site est publié sur GitHub Pages, et reste lisible ouvert depuis le disque (file://).
+# - offline : désactive use_directory_urls et rend la recherche utilisable hors serveur.
+# - privacy : télécharge Mermaid (unpkg.com) et les polices (Google Fonts) dans le site,
+#   qui ne dépend alors d'aucun service tiers.
+#   Sous Windows sans droits de lien symbolique, il émet des avertissements
+#   « Couldn't create symbolic link » : les fichiers référencés sont néanmoins copiés.
+#   DOCS_PRIVACY=false le désactive, pour la vérification stricte des liens (voir README).
+# - print-site : assemble toutes les pages dans print_page.html (couverture, table des matières),
+#   imprimée en PDF par outils/construire_pdf.py. Il doit rester le DERNIER plugin de la liste
+#   (exigence de sa documentation).
+plugins:
+  - search:
+      lang: fr
+  - offline
+  - privacy:
+      enabled: !ENV [DOCS_PRIVACY, true]
+  - print-site:
+      print_page_title: "Version imprimable"
+      add_cover_page: true
+      toc_title: Table des matières
+      enumerate_headings: false
+      enumerate_figures: false
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode clair
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.highlight
+    - content.tooltips
+    - content.code.copy
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+watch:
+  - includes
+
+nav:
+  - Accueil: index.md
+  - Démarrer:
+      - 1. Installer Claude Code: demarrer/installer-claude-code.md
+      - 2. Installer le kit: demarrer/installer-le-kit.md
+      - 3. Initialiser un projet: demarrer/initialiser-un-projet.md
+  - Comprendre:
+      - Les notions de base: comprendre/notions.md
+      - L'équipe à deux rôles: comprendre/equipe.md
+      - Le socle commun: comprendre/socle.md
+      - Les règles d'ingénierie: comprendre/regles-ingenierie.md
+      - Les niveaux de qualité: comprendre/niveaux.md
+      - "En coulisses : la fiche de tâche": comprendre/coulisses-fiche-de-tache.md
+      - "En coulisses : le compte rendu": comprendre/coulisses-compte-rendu.md
+  - Travailler avec les agents:
+      - Qui fait quoi, et quand: travailler/mission.md
+      - Vos moments d'attention: travailler/attention.md
+      - Bien formuler et réagir: travailler/bonnes-pratiques.md
+      - Piloter une session: travailler/session.md
+  - Exemple complet: exemple.md
+  - Questions fréquentes: faq.md
+  - Glossaire: glossaire.md

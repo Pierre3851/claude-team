@@ -1,0 +1,38 @@
+# Construit la documentation en PDF et la joint à chaque Release publiée.
+name: pdf
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - run: pip install -r requirements-docs.txt
+
+      - name: Navigateur Chromium de Playwright
+        run: python -m playwright install --with-deps chromium
+
+      # Sans DOCS_SITE_URL : Mermaid est chargé depuis le site construit, pas depuis le site en ligne.
+      - name: Construction du site
+        run: mkdocs build --clean
+
+      - name: Assemblage du PDF
+        run: >
+          python outils/construire_pdf.py --site site --navigateur chromium
+          --sortie "dist/claude-team-documentation-${{ github.event.release.tag_name }}.pdf"
+
+      - name: Ajout du PDF à la Release
+        run: gh release upload "${{ github.event.release.tag_name }}" dist/*.pdf --clobber
+        env:
+          GH_TOKEN: ${{ github.token }}

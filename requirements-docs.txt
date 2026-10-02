@@ -1,0 +1,10 @@
+# Versions avec lesquelles la documentation a été construite et vérifiée.
+
+# Site (mkdocs build) — mkdocs-material 9.7.7 impose lui-même mkdocs<2 (MkDocs 2.0 est incompatible).
+mkdocs-material==9.7.7
+mkdocs==1.6.1
+pymdown-extensions==12.1
+
+# PDF — print-site assemble la page imprimable, Playwright l'imprime (outils/construire_pdf.py).
+mkdocs-print-site-plugin==2.9
+playwright==1.63.0

@@ -1,0 +1,48 @@
+# Publie la documentation sur GitHub Pages (branche gh-pages) à chaque push sur main.
+# Réglage du dépôt requis : Settings → Pages → Source « Deploy from a branch », branche gh-pages.
+# Référence : https://squidfunk.github.io/mkdocs-material/publishing-your-site/
+name: documentation
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Identité Git du robot (pour la branche gh-pages)
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
+      - uses: actions/cache@v6
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+
+      - run: pip install -r requirements-docs.txt
+
+      - name: Vérification stricte des liens et des ancres
+        run: mkdocs build --strict
+        env:
+          DOCS_PRIVACY: "false"
+
+      - name: Publication sur GitHub Pages
+        run: mkdocs gh-deploy --force
+        env:
+          DOCS_SITE_URL: https://pierre3851.github.io/claude-team/

@@ -1,0 +1,12 @@
+# Fichiers de test du kit, copiés depuis mon-projet-claude-code/ à la racine.
+# Les règles sont ancrées (/) pour ne pas exclure ceux du modèle, qui doivent être publiés.
+/CLAUDE.md
+/.env
+/.claude/
+
+# Construction de la documentation : le site est publié par GitHub Pages, le PDF dans les Releases.
+/.venv/
+/.cache/
+/site/
+*.pdf
+__pycache__/
