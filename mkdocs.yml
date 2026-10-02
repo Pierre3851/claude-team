@@ -94,6 +94,7 @@ nav:
       - 1. Installer Claude Code: demarrer/installer-claude-code.md
       - 2. Installer le kit: demarrer/installer-le-kit.md
       - 3. Initialiser un projet: demarrer/initialiser-un-projet.md
+      - 4. Reprendre un projet existant: demarrer/reprendre-un-projet-existant.md
   - Comprendre:
       - Les notions de base: comprendre/notions.md
       - L'équipe à deux rôles: comprendre/equipe.md

@@ -76,7 +76,8 @@ claude-team/
     Suivez les trois étapes de **Démarrer** dans l'ordre :
     [installer Claude Code](demarrer/installer-claude-code.md),
     [installer le kit](demarrer/installer-le-kit.md),
-    [initialiser un projet](demarrer/initialiser-un-projet.md).
+    [initialiser un projet](demarrer/initialiser-un-projet.md). Projet déjà commencé ? Remplacez la
+    troisième par [reprendre un projet existant](demarrer/reprendre-un-projet-existant.md).
 
 - **🧠 Je veux comprendre**
 

@@ -29,9 +29,9 @@ charge automatiquement.
 La ligne `"agent": "tech-leader"` **active le Tech Leader** : dans ce dossier, la session principale
 adopte ce rôle.
 
-!!! tip "Projet existant"
-    Même démarche. Si `CLAUDE.md` ou `.claude\settings.json` existent déjà, fusionnez au lieu de
-    remplacer.
+!!! tip "Projet déjà commencé sans le kit"
+    Suivez plutôt [Reprendre un projet existant](reprendre-un-projet-existant.md) : mise en place
+    sans rien écraser, puis audit par le Tech Leader.
 
 ## Étape 2 — Ouvrir le projet dans VS Code
 
