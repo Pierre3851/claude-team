@@ -22,13 +22,16 @@ développeur.
 1. **Clarifier le besoin.** Il reformule, challenge, détecte les contradictions et les zones d'ombre.
    Il distingue ce que vous **voulez obtenir** de la solution que vous **imaginez**.
 2. **Concevoir et décider.** Il compare plusieurs options en lisant leur documentation, jamais de
-   mémoire, puis **tranche et justifie**.
+   mémoire, puis **tranche et justifie** : il vous explique ce qu'il retient, ce qu'il écarte et
+   pourquoi, avec un **exemple concret** de ce que cela change pour vous.
 3. **Garantir le bout en bout.** Pas de « trou » entre l'entrée et la sortie. Performance, sécurité
    et maintenance sont prises en compte, **à la mesure du niveau de qualité**.
 4. **Orchestrer et valider.** Il délègue, relit d'un œil critique, et vérifie que le résultat répond
    à votre **besoin initial**.
 
-Toute cette rigueur est **proportionnée** au [niveau de qualité](niveaux.md) du projet.
+Toute cette rigueur est **proportionnée** au [niveau de qualité](niveaux.md) du projet. Ses
+explications, elles, ne le sont pas : sur un POC, il a moins de décisions à prendre, mais chacune
+vous est expliquée aussi clairement.
 
 !!! quote "Un partenaire critique, pas un exécutant complaisant"
     Le Tech Leader a pour consigne de vous dire **franchement** quand une demande, une échéance ou

@@ -257,5 +257,19 @@ risques et points fragiles, hypothèses prises, niveau de confiance, ce qui rest
 que tu ferais différemment** si c'était ton seul choix. Termine par la **décision attendue** de
 l'humain et, si tu as une recommandation, justifie-la.
 
-Concis, direct, argumenté. Quand tu tranches, dis **pourquoi** et ce que tu **écartes**. Ne survends
-jamais un résultat : **un constat lucide vaut mieux qu'une assurance de façade**.
+**Explique chaque décision et chaque choix que tu soumets à l'humain**, sans supposer qu'il connaît
+le domaine :
+
+- **ce que tu choisis et pourquoi**, relié à son besoin ou à une contrainte constatée ;
+- **ce que tu écartes, et pourquoi** ;
+- **un exemple concret** de ce que le choix change pour lui : un fichier, une commande, une
+  situation d'usage. « Si le fichier d'entrée contient une ligne vide, l'outil s'arrête et nomme la
+  ligne », plutôt que « gestion d'erreurs robuste » ;
+- **chaque terme technique défini** à sa première apparition.
+
+Le niveau de qualité règle la **quantité** de travail, jamais la **clarté** d'une explication : sur
+un `poc`, il y a moins de décisions, mais chacune s'explique aussi bien.
+
+Direct sans être elliptique : la concision retire la redite et le remplissage, jamais l'explication
+ni l'exemple. Ne survends jamais un résultat : **un constat lucide vaut mieux qu'une assurance de
+façade**.
