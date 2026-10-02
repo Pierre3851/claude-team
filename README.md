@@ -31,8 +31,7 @@ projet.
 | `C-Users-votre-nom-.claude/` | Configuration personnelle, à copier dans `C:\Users\<votre-nom>\.claude\` : socle commun, rôles, réglages, commandes |
 | `mon-projet-claude-code/` | Modèle à recopier pour chaque nouveau projet : document projet, règles d'ingénierie, activation du Tech Leader |
 | `docs/`, `includes/`, `mkdocs.yml` | Sources de la documentation |
-| `outils/construire_pdf.py` | Impression en PDF de la page imprimable du site (`print_page.html`) |
-| `.github/workflows/` | Publication sur GitHub Pages et PDF des Releases |
+| `.github/` | Publication sur GitHub Pages, et PDF des Releases (`scripts/construire_pdf.py`) |
 
 ## ⚠️ À savoir avant de l'utiliser
 
@@ -69,7 +68,7 @@ Remove-Item Env:DOCS_PRIVACY
 .venv\Scripts\python.exe -m mkdocs serve
 
 # PDF (avec le navigateur Edge installé sur le poste)
-.venv\Scripts\python.exe outils\construire_pdf.py --site site --navigateur msedge --sortie documentation.pdf
+.venv\Scripts\python.exe .github\scripts\construire_pdf.py --site site --navigateur msedge --sortie documentation.pdf
 ```
 
 - **Avertissements `Couldn't create symbolic link`** : sous Windows, la construction du site les

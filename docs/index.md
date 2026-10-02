@@ -64,7 +64,7 @@ claude-team/
 │   └── .claude/
 │       ├── settings.json         ← active le Tech Leader dans ce projet
 │       └── regles-ingenierie.md  ← règles de développement, texte fixe
-└── mkdocs.yml, docs/, outils/    ← les sources de cette documentation
+└── mkdocs.yml, docs/, includes/  ← les sources de cette documentation
 ```
 
 ## Par où commencer ?

@@ -29,7 +29,7 @@ jobs:
 
       - name: Assemblage du PDF
         run: >
-          python outils/construire_pdf.py --site site --navigateur chromium
+          python .github/scripts/construire_pdf.py --site site --navigateur chromium
           --sortie "dist/claude-team-documentation-${{ github.event.release.tag_name }}.pdf"
 
       - name: Ajout du PDF à la Release

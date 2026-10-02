@@ -23,7 +23,7 @@ validation:
 #   « Couldn't create symbolic link » : les fichiers référencés sont néanmoins copiés.
 #   DOCS_PRIVACY=false le désactive, pour la vérification stricte des liens (voir README).
 # - print-site : assemble toutes les pages dans print_page.html (couverture, table des matières),
-#   imprimée en PDF par outils/construire_pdf.py. Il doit rester le DERNIER plugin de la liste
+#   imprimée en PDF par .github/scripts/construire_pdf.py. Il doit rester le DERNIER plugin de la liste
 #   (exigence de sa documentation).
 plugins:
   - search:

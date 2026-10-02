@@ -5,6 +5,6 @@ mkdocs-material==9.7.7
 mkdocs==1.6.1
 pymdown-extensions==12.1
 
-# PDF — print-site assemble la page imprimable, Playwright l'imprime (outils/construire_pdf.py).
+# PDF — print-site assemble la page imprimable, Playwright l'imprime (.github/scripts/construire_pdf.py).
 mkdocs-print-site-plugin==2.9
 playwright==1.63.0

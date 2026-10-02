@@ -5,7 +5,7 @@ d'imprimer. Construire d'abord le site avec `mkdocs build`, SANS la variable DOC
 Material charge Mermaid depuis le site en ligne.
 
 Usage :
-    python outils/construire_pdf.py --site site --navigateur msedge --sortie documentation.pdf
+    python .github/scripts/construire_pdf.py --site site --navigateur msedge --sortie documentation.pdf
 
 --navigateur : `msedge` ou `chrome` utilisent le navigateur du poste ; `chromium` celui de
 Playwright (installé par `playwright install chromium`).
