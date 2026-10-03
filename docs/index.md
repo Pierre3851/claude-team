@@ -44,6 +44,23 @@ Le système répond à chacun :
     Attendez-vous à ce que les agents vous posent des questions, s'arrêtent et disent « je ne sais
     pas ». C'est voulu : c'est le signe que le système fonctionne.
 
+## Les vraies bonnes idées viendront de vous
+
+Claude Code est un outil très puissant pour **mettre en œuvre** une solution technique. Mais il ne
+connaît que ce qu'on lui a dit et ce qu'il a lu dans le projet. **Vous**, vous connaissez tout ce qui
+entoure le besoin : les personnes qui utiliseront l'outil, leurs habitudes, ce qui a déjà été
+essayé, les contraintes qui ne sont écrites nulle part.
+
+!!! tip "Lisez, réfléchissez, puis proposez"
+    Prenez le temps de lire les propositions du Tech Leader et d'y réfléchir. Si vous vous dites
+    « attends, j'ai peut-être une idée, parce que là je sais que… », c'est **sûrement une bonne
+    idée** : proposez-la-lui. Il l'examinera d'un œil critique, et c'est de cet échange que sortent
+    les meilleures solutions.
+
+    Par exemple : il propose un tableau de bord en ligne, mais vous savez que l'équipe concernée
+    vit dans Excel et n'ouvrira jamais un site de plus. Dites-le : cette information change tout,
+    et il ne pouvait pas la deviner seul.
+
 ## Ce que contient le kit
 
 ```text
