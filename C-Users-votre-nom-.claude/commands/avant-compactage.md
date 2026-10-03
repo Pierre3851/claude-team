@@ -28,6 +28,9 @@ nouveau travail.**
 
 4. **Rends compte en quelques lignes** : ce qui a été écrit et où, l'identifiant du commit, ce qui
    n'a pas pu être sauvegardé et pourquoi. Termine par une instruction de compactage prête à copier,
-   qui dit au résumé sur quoi insister :
+   **une seule ligne de quinze mots au plus**, qui **nomme** le sujet à privilégier sans en recopier
+   le contenu (identifiants, chemins, listes) : ce contenu est déjà sur le disque.
 
-   `/compact Garder : <tâche en cours et son état>, <questions en attente de réponse>`
+   `/compact Priorité : <sujet en cours>[ ; question en attente : <laquelle>]`
+
+   Exemple : `/compact Priorité : page « Reprendre un projet existant » ; question en attente : publication`
