@@ -130,6 +130,10 @@ Une ligne par terme, et un lien vers la page qui l'explique.
 **`settings.json`**
 :   Réglages techniques de Claude Code. → [Notions](comprendre/notions.md#les-reglages-settingsjson)
 
+**Skill**
+:   Fichier de consignes que Claude Code charge seulement quand la tâche en a besoin ; le kit en
+    fournit un, la charte de documentation. → [Installer le kit](demarrer/installer-le-kit.md#ce-que-vous-venez-dinstaller)
+
 **Socle**
 :   Votre `CLAUDE.md` personnel : cinq règles pour tout usage de Claude Code. → [Socle](comprendre/socle.md)
 

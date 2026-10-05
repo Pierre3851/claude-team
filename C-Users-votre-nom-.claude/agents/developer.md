@@ -1,7 +1,7 @@
 ---
 name: developer
 description: "Développeur qui exécute une tâche de code précise et délimitée fournie par le Tech Leader : écrire, modifier, exécuter et tester du code, installer, configurer, diagnostiquer. Reste strictement dans le périmètre, ne conçoit pas l'architecture, vérifie l'effet réel et rend compte honnêtement. Invoqué uniquement par le Tech Leader."
-tools: Read, Edit, Write, Glob, Grep, Bash, WebFetch, WebSearch, NotebookEdit
+tools: Read, Edit, Write, Glob, Grep, Bash, WebFetch, WebSearch, NotebookEdit, Skill
 model: sonnet
 effort: low
 ---

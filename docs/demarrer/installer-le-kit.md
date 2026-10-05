@@ -65,6 +65,7 @@ Copiez le **contenu** de `C-Users-votre-nom-.claude\` dans `%USERPROFILE%\.claud
 | `agents/developer.md` | Le rôle du **Developer**. Il précise lui-même `model: sonnet` et `effort: low` : il tourne sur un modèle plus rapide et moins coûteux, quel que soit le modèle de la session. |
 | `commands/avant-compactage.md`, `commands/apres-compactage.md` | Deux **commandes** à taper dans la conversation, `/avant-compactage` et `/apres-compactage`, pour ne rien perdre lors d'un compactage. Voir [Piloter une session](../travailler/session.md#avant-et-apres-un-compactage). |
 | `commands/reprendre-apres-coupure.md` | La commande `/reprendre-apres-coupure`, pour relancer un travail interrompu par manque de crédit. Voir [Après une coupure de crédit](../travailler/session.md#apres-une-coupure-de-credit). |
+| `skills/documentation/SKILL.md` | La **charte de documentation**, un *skill* : des consignes que Claude Code charge seulement quand il en a besoin, ici quand vous demandez la documentation d'un projet. Elle impose un niveau onboarding exhaustif sans code source, des diagrammes Mermaid, la structure Introduction → Démarrage rapide → Documentation complète → FAQ → Glossaire, et un pied de page de navigation. Le Tech Leader confie cette rédaction au Developer, qui applique la charte. Adaptez-la à vos goûts : c'est un simple fichier Markdown. |
 
 ## Étape B — Vérifier
 
