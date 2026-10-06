@@ -75,7 +75,8 @@ Une ligne par terme, et un lien vers la page qui l'explique.
 
 **Hook**
 :   Script exécuté automatiquement par Claude Code, indépendamment du modèle. Le kit n'en installe
-    pas.
+    aucun d'office et en propose un en option. →
+    [Être prévenu par un son](travailler/etre-prevenu-par-un-son.md)
 
 **Hors niveau**
 :   Point noté en une ligne, sans être traité, car il ne compte qu'à un niveau supérieur. →

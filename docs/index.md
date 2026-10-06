@@ -75,6 +75,8 @@ claude-team/
 │   │   ├── avant-compactage.md   ← /avant-compactage : tout sauvegarder
 │   │   ├── apres-compactage.md   ← /apres-compactage : reprendre le fil
 │   │   └── reprendre-apres-coupure.md ← /reprendre-apres-coupure : crédit épuisé
+│   ├── hooks/
+│   │   └── jouer-son.ps1         ← option : un son quand Claude a fini
 │   └── skills/
 │       └── documentation/SKILL.md ← la charte de documentation d'un projet
 ├── mon-projet-claude-code/       ← modèle à recopier pour chaque nouveau projet
