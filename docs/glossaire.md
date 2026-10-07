@@ -40,7 +40,7 @@ Une ligne par terme, et un lien vers la page qui l'explique.
     [Piloter une session](travailler/session.md#avant-et-apres-un-compactage)
 
 **Compte rendu**
-:   Rapport du Developer au Tech Leader, en six sections. →
+:   Rapport du Developer au Tech Leader, en sept sections. →
     [En coulisses](comprendre/coulisses-compte-rendu.md)
 
 **Contexte**
@@ -64,7 +64,7 @@ Une ligne par terme, et un lien vers la page qui l'explique.
 
 **Écart**
 :   Différence entre une consigne et la documentation ; elle se signale, jamais ne se tranche en
-    silence. → [En coulisses](comprendre/coulisses-compte-rendu.md#4-sources-et-ecarts)
+    silence. → [En coulisses](comprendre/coulisses-compte-rendu.md#5-sources-et-ecarts)
 
 **Effort**
 :   Quantité de réflexion accordée au modèle. → [Notions](comprendre/notions.md#leffort)

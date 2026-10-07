@@ -11,16 +11,17 @@
 Pour suivre le Developer en direct, voir la carte des agents dans
 [Reprendre la main](../travailler/session.md#reprendre-la-main).
 
-## Les six sections obligatoires
+## Les sept sections obligatoires
 
 ```mermaid
 flowchart TB
     R["📋 Compte rendu"] --> S1["1. Ce qui a été fait<br/><small>avec un statut par étape</small>"]
-    R --> S2["2. Comment l'essayer"]
-    R --> S3["3. Ce que j'ai constaté<br/>d'inattendu"]
-    R --> S4["4. Sources et écarts"]
-    R --> S5["5. Mon avis"]
-    R --> S6["6. Ce que je recommande<br/>ensuite"]
+    R --> S2["2. Plan suivi"]
+    R --> S3["3. Comment l'essayer"]
+    R --> S4["4. Ce que j'ai constaté<br/>d'inattendu"]
+    R --> S5["5. Sources et écarts"]
+    R --> S6["6. Mon avis"]
+    R --> S7["7. Ce que je recommande<br/>ensuite"]
 ```
 
 ### 1. Ce qui a été fait, avec un statut
@@ -34,30 +35,38 @@ Chaque étape reçoit l'un de ces quatre statuts :
 | **NON FAIT** | Pas exécuté | Souvent parce qu'une **question** attendait une réponse. Ce n'est pas un échec, c'est le comportement attendu. |
 | **ÉCHOUÉ** | Tenté, sans succès | Le message d'erreur est **cité mot pour mot**. |
 
-### 2. Comment l'essayer
+### 2. Plan suivi
+
+Le plan que le Developer a **écrit avant de toucher à quoi que ce soit** : fichiers concernés,
+étapes, façon de vérifier chaque critère de la fiche, risques. Vient ensuite la liste des **écarts**
+entre ce plan et ce qui a été fait, chacun avec sa raison, ou la mention « plan suivi sans écart ».
+Comparez les deux : un écart **non déclaré** (une étape du plan absente du résultat, ou un fichier
+modifié qui n'y figurait pas) est un signal d'alerte.
+
+### 3. Comment l'essayer
 
 Où se trouve le résultat et quelle commande lancer pour le voir fonctionner. **Essayez-le
 vous-même** : c'est la meilleure façon de vous approprier le travail.
 
-### 3. Ce que j'ai constaté d'inattendu
+### 4. Ce que j'ai constaté d'inattendu
 
 Tout ce qui a surpris le Developer, même hors sujet : une version différente de celle prévue, un
 fichier qui existait déjà…
 
-### 4. Sources et écarts
+### 5. Sources et écarts
 
 - Les **sources** : les liens vers la documentation consultée, avec la version de l'outil.
 - Les **écarts** : les différences entre la consigne et la documentation de référence du projet, ou
   entre la consigne et la documentation de l'outil. Pour chacun : ce que dit la consigne, ce que dit
   la documentation, l'impact. Sinon, la mention « aucun écart constaté ».
 
-### 5. Mon avis
+### 6. Mon avis
 
 L'**avis sincère** du Developer, critique compris. La consigne était-elle bonne ? Le résultat est-il
 solide ou fragile ? Qu'aurait-il fait autrement ? De quoi n'est-il pas sûr ? Il a pour consigne de ne
 **jamais** dire que tout va bien s'il a un doute.
 
-### 6. Ce que je recommande ensuite
+### 7. Ce que je recommande ensuite
 
 Une ou deux phrases : la suite logique, ou le point à trancher.
 

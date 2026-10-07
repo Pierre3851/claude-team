@@ -62,7 +62,7 @@ Copiez le **contenu** de `C-Users-votre-nom-.claude\` dans `%USERPROFILE%\.claud
 | `CLAUDE.md` | Le **socle** : 5 règles de travail chargées dans **toutes** les sessions et chez **tous** les agents, quel que soit l'usage. Voir [Le socle commun](../comprendre/socle.md). |
 | `settings.json` | `"model": "opus"` : les sessions utilisent le dernier modèle **Opus**. `"effortLevel": "medium"` : niveau de réflexion par défaut (valeurs possibles : `low`, `medium`, `high`, `xhigh`). |
 | `agents/tech-leader.md` | Le rôle du **Tech Leader**. |
-| `agents/developer.md` | Le rôle du **Developer**. Il précise lui-même `model: sonnet` et `effort: low` : il tourne sur un modèle plus rapide et moins coûteux, quel que soit le modèle de la session. |
+| `agents/developer.md` | Le rôle du **Developer**. Il précise lui-même `model: sonnet` et `effort: medium` : il tourne sur un modèle plus rapide et moins coûteux, quel que soit le modèle de la session. |
 | `commands/avant-compactage.md`, `commands/apres-compactage.md` | Deux **commandes** à taper dans la conversation, `/avant-compactage` et `/apres-compactage`, pour ne rien perdre lors d'un compactage. Voir [Piloter une session](../travailler/session.md#avant-et-apres-un-compactage). |
 | `commands/reprendre-apres-coupure.md` | La commande `/reprendre-apres-coupure`, pour relancer un travail interrompu par manque de crédit. Voir [Après une coupure de crédit](../travailler/session.md#apres-une-coupure-de-credit). |
 | `hooks/jouer-son.ps1` | Un script de **son**, facultatif. Il ne fait **rien** tant que vous ne l'avez pas déclaré dans `settings.json`. Voir [Être prévenu par un son](../travailler/etre-prevenu-par-un-son.md). |

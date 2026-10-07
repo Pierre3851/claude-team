@@ -14,7 +14,7 @@ développeur.
 | **Décide de l'architecture ?** | Oui, avec votre validation | Non. Il peut donner son avis, pas changer de cap |
 | **Peut poser des questions ?** | Oui, à vous, à tout moment | **Non** : il s'arrête et met sa question dans son compte rendu |
 | **Sa recherche documentaire** | **Large** : « quel outil choisir, et que sait-il vraiment faire ? » | **Profonde** : « comment employer exactement cet outil, dans cette version ? » |
-| **Modèle** | Opus (le plus capable) | Sonnet, effort bas (rapide, économique) |
+| **Modèle** | Opus (le plus capable) | Sonnet, effort moyen (rapide, économique) |
 | **Mémoire** | Toute la conversation | Aucune : seulement la fiche de tâche |
 
 ## Le Tech Leader : quatre responsabilités
@@ -45,9 +45,15 @@ Le Developer reçoit une consigne et suit toujours la même méthode :
 
 ```mermaid
 flowchart LR
-    A["1. Relire la consigne<br/>et la reformuler"] --> B["2. Constater<br/>l'état de départ"] --> C["3. Agir par<br/>petites étapes"] --> D["4. Vérifier<br/>l'effet réel"] --> E["5. Rendre compte"]
-    C -- "échec ×2" --> E
+    A["1. Relire la consigne<br/>et la reformuler"] --> B["2. Charger le contexte<br/>et constater l'état de départ"] --> C["3. Lire la doc<br/>des outils"] --> D["4. Écrire le plan"] --> E["5. Implémenter<br/>et vérifier l'effet réel"] --> F["6. Rendre compte"]
+    E -- "échec ×2" --> F
 ```
+
+Le **contexte chargé** reste ciblé : le `CLAUDE.md` du projet, ce que cite la fiche, et les
+voisins directs de ces fichiers. S'il manque quelque chose, il pose une question dans son compte
+rendu plutôt que d'explorer le dépôt. Le **plan** s'écrit **avant** toute modification, sans que
+personne ait à le valider : sa taille suit le [niveau de qualité](niveaux.md) du projet, et il
+figure ensuite dans le [compte rendu](coulisses-compte-rendu.md).
 
 Ses règles absolues :
 
