@@ -76,7 +76,7 @@ Ouvrez n'importe quel dossier dans VS Code, ouvrez Claude Code, puis demandez-lu
 Quelles sont les règles de ton CLAUDE.md personnel ? Donne juste leurs titres.
 ```
 
-Il doit citer les cinq règles du socle : « Vérifier plutôt que se souvenir », « Jamais de valeur
+Il doit citer les cinq règles du socle : « Vérifier, ou dire qu'on répond de mémoire », « Jamais de valeur
 par défaut ni de repli silencieux »… S'il ne les connaît pas, le fichier n'est pas au bon
 endroit.
 

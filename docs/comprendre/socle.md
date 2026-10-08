@@ -14,18 +14,21 @@ en silence.
 !!! quote "La règle qui prime sur toutes les autres"
     **Mieux vaut une question qu'un résultat faux qui a l'air juste.** (règle 2)
 
-## 1. Vérifier plutôt que se souvenir
+## 1. Vérifier, ou dire qu'on répond de mémoire
 
 **Ce qu'elle dit.** Avant de s'appuyer sur un fait qui a pu changer (le fonctionnement d'un logiciel,
-d'une API, d'un format, d'un service), l'agent consulte la **source officielle en ligne** et **cite
-ses sources**.
+d'une API, d'un format, d'un service) pour écrire du code ou un document, lancer une commande ou
+prendre une décision, l'agent consulte la **source officielle en ligne** et **cite ses sources**.
+Pour vous **répondre**, il peut s'en tenir à ses connaissances, à condition de l'**annoncer**.
 
 **Pourquoi.** Les connaissances du modèle datent de son entraînement. Entre-temps, les logiciels
 évoluent : une option disparaît, une commande change de nom. Une réponse « de mémoire » peut sembler
-juste et être fausse.
+juste et être fausse : annoncée, elle reste utile pour une question rapide ; écrite dans un fichier,
+l'avertissement se perd.
 
-**Ce que vous verrez.** Des recherches web, et des **liens** dans les réponses. *Si l'agent ne peut
-pas nommer sa source, il n'a pas cherché.*
+**Ce que vous verrez.** Des recherches web, et des **liens** dans les réponses. Ou bien une mention
+« *De mémoire, non vérifié* » en tête du passage concerné. *Si l'agent ne peut pas nommer sa source
+et ne dit pas qu'il répond de mémoire, il n'a pas cherché.*
 
 ## 2. Jamais de valeur par défaut ni de repli silencieux
 

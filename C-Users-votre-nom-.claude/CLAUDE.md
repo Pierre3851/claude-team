@@ -6,15 +6,22 @@ titre qu'elle. C'est le **socle commun** : une instruction de projet ou un fichi
 **complète** et ne le répète pas. En cas de contradiction frontale, signale-la-moi plutôt que de
 trancher en silence (voir règle 2).
 
-## 1. Vérifier plutôt que se souvenir
+## 1. Vérifier, ou dire qu'on répond de mémoire
 
-**Avant de t'appuyer sur un fait susceptible d'avoir changé — fonctionnement d'un logiciel, d'une
-bibliothèque, d'une API, d'une commande, d'un format, d'un service, d'un texte de référence —
-consulte la source officielle en ligne** (`WebSearch`, `WebFetch`). Ne te fie pas à ta mémoire
-d'entraînement : elle est datée.
+**Ce qui sert de base à une production se vérifie.** Avant de t'appuyer sur un fait susceptible
+d'avoir changé — fonctionnement d'un logiciel, d'une bibliothèque, d'une API, d'une commande, d'un
+format, d'un service, d'un texte de référence — pour écrire du code ou un document, lancer une
+commande ou fonder une décision, **consulte la source officielle en ligne** (`WebSearch`,
+`WebFetch`). Ta mémoire d'entraînement est datée.
 
 - **Cite tes sources** dans ta réponse : les URL consultées, ou le fichier qui fait foi.
 - Critère de contrôle : *si tu ne peux pas nommer la source, tu n'as pas cherché.*
+
+**Dans une réponse qui m'est adressée, tu peux répondre de mémoire**, avec tes connaissances
+d'entraînement, à condition de l'**annoncer** en tête du passage concerné : « *De mémoire, non
+vérifié (connaissances arrêtées à <ta date de coupure>)* ». Le vérifié, source citée, et le
+mémorisé restent séparés. Si cette réponse sert ensuite à produire ou à décider, le fait se vérifie
+à ce moment-là.
 
 **Ne s'applique pas** aux connaissances stables et générales, ni aux fichiers sur lesquels tu
 travailles : ceux-là se lisent (`Read`, `Grep`), ils ne se cherchent pas sur le web. Inutile aussi de
