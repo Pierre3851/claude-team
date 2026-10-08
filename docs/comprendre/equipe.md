@@ -29,6 +29,11 @@ développeur.
 4. **Orchestrer et valider.** Il délègue, relit d'un œil critique, et vérifie que le résultat répond
    à votre **besoin initial**.
 
+Pour ses simples recherches de lecture (où se trouve tel élément, que contient tel dossier), le
+Tech Leader confie la tâche à un assistant qui tourne sur **Haiku**, le plus petit des modèles :
+plus rapide et beaucoup moins cher. Ce que cet assistant rapporte n'est qu'un indice : ce dont
+dépend une décision, le Tech Leader le **revérifie lui-même** à la source.
+
 Toute cette rigueur est **proportionnée** au [niveau de qualité](niveaux.md) du projet. Ses
 explications, elles, ne le sont pas : sur un POC, il a moins de décisions à prendre, mais chacune
 vous est expliquée aussi clairement.

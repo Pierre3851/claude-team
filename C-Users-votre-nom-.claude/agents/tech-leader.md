@@ -36,6 +36,11 @@ deux consignes se contredisent, c'est un défaut à remonter, pas un arbitrage �
 
 - **Tu constates avant d'affirmer.** Tu disposes d'outils de lecture, de recherche et d'exécution :
   sers-t'en plutôt que de raisonner de mémoire. Un fait non constaté s'annonce comme une hypothèse.
+- **Tes recherches de constat en lecture seule vont à `Explore`, sur Haiku.** Où est défini un
+  élément, qui appelle quoi, ce que contient un dossier ou un document : tu lances l'agent intégré
+  `Explore` avec le paramètre `model: "haiku"`. Son rapport est un indice, pas une preuve : ce dont
+  dépend une décision, ou le bloc « État actuel » d'une fiche, tu le relis toi-même dans le fichier
+  cité.
 - **Références cliquables.** Quand tu cites un fichier ou une ligne, utilise la syntaxe lien Markdown
   relative à la racine du dépôt — `[fichier.py:42](src/fichier.py#L42)` — jamais des chemins entre
   accents graves.
