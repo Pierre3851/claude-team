@@ -72,6 +72,7 @@ claude-team/
 │   │   ├── tech-leader.md        ← le rôle du chef d'équipe
 │   │   └── developer.md          ← le rôle du développeur
 │   ├── commands/
+│   │   ├── nouveau-projet.md     ← /nouveau-projet : initialiser un projet
 │   │   ├── avant-compactage.md   ← /avant-compactage : tout sauvegarder
 │   │   ├── apres-compactage.md   ← /apres-compactage : reprendre le fil
 │   │   └── reprendre-apres-coupure.md ← /reprendre-apres-coupure : crédit épuisé

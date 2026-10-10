@@ -4,6 +4,9 @@
 /.env
 /.claude/
 
+# Variante R&D du modèle de projet, en cours d'élaboration : pas encore publiée.
+/mon-projet-r-et-d/
+
 # Construction de la documentation : le site est publié par GitHub Pages, le PDF dans les Releases.
 /.venv/
 /.cache/

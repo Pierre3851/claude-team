@@ -3,7 +3,7 @@
 Une ligne par terme, et un lien vers la page qui l'explique.
 
 **ADR** (*Architecture Decision Record*)
-:   Courte fiche qui consigne une décision technique et ses alternatives écartées. →
+:   Courte fiche qui consigne une décision technique et les pistes gardées en réserve, à leur rang. →
     [Qui fait quoi](travailler/mission.md#phase-par-phase)
 
 **Agent, sous-agent**

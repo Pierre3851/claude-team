@@ -11,9 +11,9 @@ et raccourcis : ils montrent la forme du travail, ce ne sont pas des sorties ré
 ## Le document projet
 
 Camille crée le dossier `D:\projets\depenses`, y recopie le modèle, y dépose la description du format
-d'export fournie par sa banque, ouvre le dossier dans VS Code et envoie à Claude Code le
-[prompt d'initialisation](demarrer/initialiser-un-projet.md#etape-3-initialiser-le-projet-avec-le-tech-leader).
-Rubrique après rubrique, le Tech Leader lui pose ses questions et propose le texte. Voici le
+d'export fournie par sa banque, ouvre le dossier dans VS Code et tape la commande
+[`/nouveau-projet`](demarrer/initialiser-un-projet.md#etape-3-initialiser-le-projet-avec-le-tech-leader).
+Elle décrit son besoin en deux phrases, niveau `outil-perso`. Rubrique après rubrique, le Tech Leader lui pose ses questions et propose le texte. Voici le
 `CLAUDE.md` obtenu :
 
 ```markdown

@@ -79,8 +79,8 @@ sequenceDiagram
 |---|---|---|---|
 | **1. Clarification** | Elle lit le document projet et la documentation de référence, reformule votre besoin, repère les contradictions et les non-dits. | Vous répondez à ses questions. | 🟡 |
 | **Porte : spécification** | Elle présente la spécification et ses critères d'acceptation. | Vous validez ou refusez. | 🔴 |
-| **2. Conception** | Elle cherche les solutions possibles, lit leur documentation, compare, tranche, puis rédige l'architecture et les ADR. | Rien. | 🟢 |
-| **Porte : conception** | Elle présente ses choix et leurs conséquences. | Vous validez ou refusez. | 🔴 |
+| **2. Conception** | Elle cherche les solutions possibles, lit leur documentation, les classe de la plus efficace à la plus incertaine, engage la première et garde les autres en réserve, puis rédige l'architecture et les ADR. | Rien : le choix technique est son affaire, elle ne vous demande pas de restreindre les pistes. | 🟢 |
+| **Porte : conception** | Elle présente ses choix et leurs conséquences. | Vous vérifiez que la conception sert votre besoin, et vous validez ou refusez. | 🔴 |
 | **3. Planification** | Elle découpe le travail en tâches et rédige une [fiche](../comprendre/coulisses-fiche-de-tache.md) pour chacune. | Rien. | 🟢 |
 | **Porte : backlog** | Elle présente la liste ordonnée des tâches. | Vous validez ou refusez. | 🔴 |
 | **4-5. Réalisation et vérification** | Le Tech Leader délègue les tâches au Developer, une à la fois, et fait vérifier chaque résultat ([détail de la délégation](../comprendre/equipe.md#comment-se-passe-une-delegation)). | Rien, sauf une **demande de permission** ou une **remontée**. | 🟢 |

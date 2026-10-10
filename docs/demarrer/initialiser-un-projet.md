@@ -5,7 +5,7 @@ puis c'est le **Tech Leader** qui initialise le projet avec vous, lors de la pre
 
 ```mermaid
 flowchart LR
-    A["📁 Recopier<br/>le modèle"] --> B["▶️ Ouvrir le dossier<br/>dans VS Code"] --> C["💬 Coller le prompt<br/>d'initialisation"] --> D["📝 Le Tech Leader remplit<br/>CLAUDE.md avec vous"] --> E["🗂️ Il fait créer<br/>l'arborescence"]
+    A["📁 Recopier<br/>le modèle"] --> B["▶️ Ouvrir le dossier<br/>dans VS Code"] --> C["💬 Taper<br/>/nouveau-projet"] --> D["📝 Le Tech Leader remplit<br/>CLAUDE.md avec vous"] --> E["🗂️ Il fait créer<br/>l'arborescence"]
 ```
 
 ## Étape 1 — Recopier le modèle
@@ -43,50 +43,39 @@ qui contient `.claude\`. Ouvrez ensuite Claude Code (icône ✱) et démarrez un
     un **redémarrage de VS Code**. Si vous avez copié le modèle pendant que VS Code tournait,
     redémarrez-le avant d'ouvrir le dossier.
 
-Pour vérifier que le rôle est actif, demandez :
-
-```text
-Quel est ton rôle ?
-```
-
-Il doit se présenter comme le **Tech Leader**. Si ce n'est pas le cas, voir la
-[FAQ](../faq.md#mise-en-route).
-
 ## Étape 3 — Initialiser le projet avec le Tech Leader
 
-Copiez ce prompt, remplacez la ligne entre chevrons par votre projet, puis envoyez-le :
+Tapez la commande :
 
 ```text
-Initialise ce projet avec moi. Le CLAUDE.md est encore le modèle vierge ;
-aucun code métier pour l'instant.
-
-Mon projet en deux phrases : <ce que je veux faire, et pour qui>.
-Niveau de qualité visé : <poc | script-ponctuel | outil-perso | interne | release>.
-
-1. Remplis le CLAUDE.md rubrique par rubrique, dans l'ordre. Pour chacune :
-   pose-moi tes questions, propose des valeurs quand j'hésite, montre-moi le
-   texte, et ne l'écris qu'après mon accord.
-2. Une fois les 5 rubriques validées, propose l'arborescence qui en découle
-   (dossiers des livrables, du code et des tests, venv, .gitignore). Après
-   mon accord, fais-la créer par le developer, puis vérifie-la.
-3. Termine par un récapitulatif : ce qui existe, ce qui reste ouvert.
+/nouveau-projet
 ```
 
-**Pourquoi ce prompt fonctionne :**
+Le Tech Leader :
 
-- **« Niveau de qualité visé »** : c'est l'information qui pèse le plus sur la suite. Une démo
+1. **vérifie la mise en place** : qu'il tient bien son rôle, que le `CLAUDE.md` est encore le modèle
+   vierge et qu'aucun projet n'existe déjà dans le dossier. Sinon, il s'arrête et vous le dit ;
+2. **se présente** et vous invite à **décrire votre projet** : ce que vous voulez faire et pour qui,
+   le niveau de qualité visé, et les documents de référence que vous avez déposés ;
+3. **après votre réponse**, remplit le `CLAUDE.md` **rubrique par rubrique** : il pose ses questions,
+   propose des valeurs quand vous hésitez, vous montre le texte et ne l'écrit qu'après votre accord ;
+4. propose l'**arborescence** qui en découle (dossiers des livrables, du code et des tests, venv,
+   `.gitignore`), puis la fait créer par le Developer après votre accord ;
+5. termine par un **récapitulatif** : ce qui existe, ce qui reste ouvert.
+
+**Ce qui compte dans votre description :**
+
+- **Le niveau de qualité visé** : c'est l'information qui pèse le plus sur la suite. Une démo
   (`poc`) se prépare en quelques minutes, une livraison client (`release`) demande plus de rigueur.
-  Si vous hésitez, consultez [Choisir son niveau](../comprendre/niveaux.md#choisir-son-niveau).
+  Si vous hésitez, dites-le, ou consultez [Choisir son niveau](../comprendre/niveaux.md#choisir-son-niveau).
+- **Le langage courant suffit** : deux ou trois phrases. Les détails viendront avec ses questions.
 
-- **« Rubrique par rubrique, après mon accord »** : vous gardez la main sur chaque décision, sans
-  être noyé sous vingt questions d'un coup.
-- **« Propose des valeurs quand j'hésite »** : vous n'avez pas besoin de connaître les bonnes
-  pratiques, il vous les soumet.
-- **« Fais-la créer par le developer »** : le Tech Leader n'écrit que des documents. La création des
-  dossiers, du venv et du `.gitignore` revient au Developer. Votre accord sur l'arborescence vaut
-  autorisation de créer le venv, conformément aux [règles d'ingénierie](../comprendre/regles-ingenierie.md#4-python-toujours-le-venv-du-projet).
-- **« Aucun code métier »** : la conversation s'arrête à la préparation du projet. Votre premier
-  vrai besoin viendra ensuite.
+Votre accord sur l'arborescence vaut autorisation de créer le venv, conformément aux
+[règles d'ingénierie](../comprendre/regles-ingenierie.md#4-python-toujours-le-venv-du-projet). La
+conversation s'arrête à la préparation du projet, **sans code métier** : votre premier vrai besoin
+viendra ensuite.
+
+Si le Tech Leader ne se reconnaît pas dans son rôle, voir la [FAQ](../faq.md#mise-en-route).
 
 ### Ce que le Tech Leader va vous demander
 
