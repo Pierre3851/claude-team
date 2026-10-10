@@ -29,7 +29,7 @@ Le détail est sur la page [Les niveaux de qualité](niveaux.md).
 **Ce qu'elle dit.** Avant d'utiliser une bibliothèque, l'agent vérifie la **version réellement
 installée** dans le projet et lit la documentation de **cette** version.
 
-**Pourquoi.** C'est l'application au code de la [règle 1 du socle](socle.md#1-verifier-plutot-que-se-souvenir) :
+**Pourquoi.** C'est l'application au code de la [règle 1 du socle](socle.md#1-verifier-ou-dire-quon-repond-de-memoire) :
 entre deux versions, une fonction change de nom, une option disparaît.
 
 ## 3. Erreurs dans le code : jamais avalées
